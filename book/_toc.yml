@@ -14,6 +14,7 @@ parts:
       - file: some_content/text_and_code.ipynb
       - file: file_to_be_added_to_toc.md
       - file: book/file_on_new_version.md
+      - external: https://gitlab.tudelft.nl/interactivetextbooks-citg/risk-and-reliability/-/blob/v0.1/book/references.md
   - caption: Exercises
     chapters:
     - file: exercises.md
